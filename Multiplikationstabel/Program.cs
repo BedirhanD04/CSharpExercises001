@@ -6,9 +6,17 @@
         {
             for (int i = 1; i <= 10; i++)
             {
-             
-                Console.WriteLine($"tal: {i}, Tredobl: {Tredobl(i)}, Kvadrat: {kvadrat(i)}");
+                int tredoblResult = Tredobl(i);
+                int kvadraResult = kvadrat(i);
+
+                if (kvadraResult > tredoblResult)
+                {
+                    break;
+                }
+
+                Console.WriteLine($"Tal: {i}, Tredobl: {tredoblResult}, Kvadrat: {kvadraResult}");
             }
+
             Console.ReadKey();
         }
 
