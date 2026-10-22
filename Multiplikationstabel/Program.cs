@@ -4,18 +4,22 @@
     {
         static void Main(string[] args)
         {
-            for (int i1 = 1; i1 <= 6; i1++)
+            for (int i = 1; i <= 10; i++)
             {
-                for (int i2 = 1; i2 <= 6; i2++)
-                {
-                    if (i1 + i2 == 5)
-                    {
-                        Console.WriteLine($"({i1},{i2})");
-                    }
-                }
+             
+                Console.WriteLine($"tal: {i}, Tredobl: {Tredobl(i)}, Kvadrat: {kvadrat(i)}");
             }
-
             Console.ReadKey();
+        }
+
+        static int Tredobl(int x)
+        {
+            return x * 3;
+        }
+
+        static int kvadrat(int x)
+        {
+            return x * x;
         }
     }
 }
