@@ -1,4 +1,7 @@
-## multiplikationstabel
+## Løkker
+
+
+### multiplikationstabel
 
 I `Main`-metoden skal du udskrive en multiplikationstabel, som vist nedenfor:
 
@@ -31,6 +34,17 @@ tekstmere tekst
 ```
 
 Udskriv tallene i et felt med bredden fire, så de står pænt på linje. Feltbredden kan angives direkte i en interpoleret streng, f.eks. `$"{tal,4}"`, som højrestiller `tal` i et felt på fire tegn. Læs mere om dette i Microsofts dokumentation under [Composite formatting – alignment](https://learn.microsoft.com/dotnet/standard/base-types/composite-formatting#alignment-component).
+
+
+### To terninger
+
+Lad os se på kast med to terninger. (En terning kan vise en værdi mellem 1 og 6.) \
+Brug to indlejrede for-løkker i Main-metoden til at gennemløbe alle de mulige kombinationer, 
+som de to terninger kan give. Der er 36 mulige kombinationer.
+
+Udskriv alle de kombinationer, hvor summen er 5, som (ordnede) par. \
+Udskriften skal for eksempel indeholde parret `(2,3)`. \
+Udskriv ét par pr. linje.
 
 ## Funktioner
 
