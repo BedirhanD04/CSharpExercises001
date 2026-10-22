@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+    <File Path="Øvelser.md" />
+  </Folder>
+  <Project Path="Multiplikationstabel/Multiplikationstabel.csproj" />
+</Solution>
